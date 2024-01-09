@@ -26,12 +26,19 @@ public class Esfera {
 		this.radio = radio;
 	}
 	
-
+	/**
+	 * Función que calcula la superficie de una esfera
+	 * @return resultado de calcular la superficie de una esfera
+	 */
 	public double superficie() {
-		double superficie = 4*Math.PI*Math.pow(radio, 2);		
+		double superficie = 4 * Math.PI * Math.pow(radio, 2);
 		return superficie;
 	}
 	
+	/**
+	 * Función que calcula el volúmen de una esfera
+	 * @return resultado de calcular el volúmen de una esfera
+	 */
 	public double volumen() {
 		double volumen = (4*Math.PI/3) * Math.pow(radio, 3);
 		return volumen;
